@@ -1,0 +1,20 @@
+# Secretos: llegan a Vercel como variables de entorno (vercel.tf), nunca como archivo
+.env
+.env.*
+*.env
+terraform.tfvars
+
+# Terraform
+*.tf
+*.tfstate
+*.tfstate.*
+.terraform
+.terraform.lock.hcl
+
+# Local
+.venv
+__pycache__
+.ruff_cache
+.langgraph_api
+.vscode
+requirements-dev.txt

@@ -1,0 +1,6 @@
+langgraph
+langsmith
+langchain-google-genai
+python-dotenv
+supabase
+python-telegram-bot

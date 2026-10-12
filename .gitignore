@@ -1,0 +1,17 @@
+# Secretos
+.env
+.env.*
+*.env
+terraform.tfvars
+
+# Terraform (el estado guarda los secretos en texto plano)
+*.tfstate
+*.tfstate.*
+.terraform
+
+# Local
+.venv
+__pycache__
+.ruff_cache
+.langgraph_api
+.vercel
